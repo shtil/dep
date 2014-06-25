@@ -1,0 +1,331 @@
+body {
+    background: url(images/bg.gif) repeat #000000;
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    margin: 0px auto auto auto;
+    color: #36322b;
+}
+
+p {
+    padding: 0px;
+    text-align: justify;
+    margin: 0px;
+    line-height: 20px;
+}
+
+p.welcome {
+    padding: 30px 35px 0 35px;
+}
+
+p.testimonial {
+    font-style: italic;
+    padding: 5px 15px 0 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.read_more {
+    display: block;
+    width: 150px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    color: #fff;
+    float: right;
+    margin: 10px 40px 0 0;
+    padding: 0 0 0 17px;
+    text-decoration: none;
+    font-size: 12px;
+    background: url(images/read_more_bg.gif) no-repeat center;
+}
+
+a:hover.read_more {
+    text-decoration: underline;
+}
+
+img.left_img {
+    float: left;
+    padding: 3px 25px 3px 3px;
+}
+
+#main_container {
+    width: 821px;
+    height: auto;
+    margin: auto;
+    padding: 0px;
+}
+
+#header {
+    width: 821px;
+    /*height:135px;*/
+    margin: 0px;
+    padding: 0px;
+    background: url(images/header_bg.gif) no-repeat center top;
+}
+
+.logo {
+    padding: 30px 0 0 0px;
+}
+
+.title {
+    width: auto;
+    padding: 2px 0 10px 0;
+    font-size: 17px;
+    color: #2e2721;
+    font-weight: bold;
+}
+
+.title_welcome {
+    width: auto;
+    padding: 0 0 0 35px;
+    font-size: 22px;
+    color: #24a4b3;
+    background: url(images/checked.gif) no-repeat left top;
+    margin: 0 0 10px 25px;
+}
+
+span.red {
+    font-weight: bold;
+    color: #da5b23;
+}
+
+span.orange {
+    font-weight: bold;
+    color: #da5b23;
+}
+
+/*---------------center_content-------*/
+.center_content {
+    width: 821px;
+    height: auto;
+    clear: both;
+    padding: 25px 0 30px 0;
+    background-color: #e9e5e2;
+}
+
+/*-----------------------login_form-------------------*/
+.text_box {
+    width: 278px;
+    height: 144px;
+    padding: 15px 0 0 10px;
+    background: url(images/text_box.gif) no-repeat center;
+    background-position: 0px 0px;
+}
+
+.login_form_row {
+    float: left;
+    padding: 4px 0 4px 0;
+}
+
+label.login_label {
+    width: 70px;
+    float: left;
+    padding: 3px 5px 0 0;
+    color: #000;
+    text-align: right;
+}
+
+input.login_input {
+    width: 153px;
+    height: 18px;
+    float: left;
+    border: 1px #9dbbc6 solid;
+    background-color: #fff;
+    color: #000;
+}
+
+input.login {
+    float: right;
+    padding: 10px 20px 0 0;
+}
+
+/*----------------------list-------------------------*/
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 8px 0 8px 0;
+}
+
+li a {
+    width: auto;
+    padding: 0 0 0 15px;
+    margin: 0;
+    color: #382EAD;
+    text-align: left;
+    text-decoration: none;
+    background: url(images/bullet_list.gif) no-repeat left;
+}
+
+li span {
+    height: 24px;
+    width: 24px;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    color: #000;
+    text-align: center;
+    float: left;
+    float: left;
+    line-height: 24px;
+    background: url(images/bullet_list.gif) no-repeat left;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+.testimonials {
+    padding: 20px 0 20px 0;
+}
+
+/*-------------------footer------------------------*/
+#footer {
+    width: 821px;
+    height: 50px;
+    clear: both;
+    color: #837d7b;
+}
+
+.left_footer {
+    float: left;
+    padding: 20px 0 0 0;
+}
+
+#footer a {
+    color: #837d7b;
+    padding: 0 8px 0 8px;
+    text-decoration: none;
+}
+
+#content {
+    display: table;
+    margin: 0 auto;
+    width: 600px;
+
+    background: #e9e5e2;
+    -moz-box-shadow: 0px 0px 3px 2px #888888;
+    -webkit-box-shadow: 0px 0px 3px 2px #888888;
+    box-shadow: 0px 0px 3px 2px #888888;
+    padding: 15px;
+}
+
+#left {
+    float: left;
+    width: 200px;
+
+}
+
+#right {
+    margin-left: 10px;
+    float: left;
+}
+
+.btn {
+    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background-color: #e6e6e6;
+    -webkit-border-top-left-radius: 11px;
+    -moz-border-radius-topleft: 11px;
+    border-top-left-radius: 11px;
+    -webkit-border-top-right-radius: 11px;
+    -moz-border-radius-topright: 11px;
+    border-top-right-radius: 11px;
+    -webkit-border-bottom-right-radius: 11px;
+    -moz-border-radius-bottomright: 11px;
+    border-bottom-right-radius: 11px;
+    -webkit-border-bottom-left-radius: 11px;
+    -moz-border-radius-bottomleft: 11px;
+    border-bottom-left-radius: 11px;
+    text-indent: 0px;
+    border: 1px solid #c9c9c9;
+    display: inline-block;
+    color: #666666;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    height: 20px;
+    line-height: 20px;
+    width: 73px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+
+.btn:hover {
+    background-color: #d4d4d4;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.btn_add {
+    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background-color: #e6e6e6;
+    -webkit-border-top-left-radius: 11px;
+    -moz-border-radius-topleft: 11px;
+    border-top-left-radius: 11px;
+    -webkit-border-top-right-radius: 11px;
+    -moz-border-radius-topright: 11px;
+    border-top-right-radius: 11px;
+    -webkit-border-bottom-right-radius: 11px;
+    -moz-border-radius-bottomright: 11px;
+    border-bottom-right-radius: 11px;
+    -webkit-border-bottom-left-radius: 11px;
+    -moz-border-radius-bottomleft: 11px;
+    border-bottom-left-radius: 11px;
+    text-indent: 0px;
+    border: 1px solid #c9c9c9;
+    display: inline-block;
+    color: #666666;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    height: 20px;
+    line-height: 20px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+
+.btn_add:hover {
+    background-color: #d4d4d4;
+}
+
+.btn_add:active {
+    position: relative;
+    top: 1px;
+}
+
+.err {
+    height: 33px;
+    line-height: 33px;
+    text-decoration-color: red;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    color: red;
+    text-align: left;
+}
+

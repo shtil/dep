@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PersonnelDepartmentDA:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/PersonnelDepartmentDA_war</output-path>
+    <root id="archive" name="PersonnelDepartmentDA_war.war">
+      <element id="artifact" artifact-name="PersonnelDepartmentDA:war exploded" />
+      <element id="directory" name="META-INF" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javax.servlet-api-3.1.0" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.31-bin" />
+          <element id="library" level="project" name="jstl-1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
